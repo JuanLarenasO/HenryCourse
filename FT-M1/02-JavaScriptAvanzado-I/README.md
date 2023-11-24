@@ -191,6 +191,9 @@ function b(){
 b();
 console.log(global); // 'Hola!'
 ```
+(salto de linea)
+
+(salto de linea)
 
 ## Asynchronous non blocking
 
@@ -216,7 +219,10 @@ Antes de avanzar repasemos algunos conceptos de programación.
 
 Todos los lenguajes de programación tienen características distintas que los caracterizan. Una de ellas es la forma con la que trabajan con variables y tipos de datos. JavaScript en particular tiene lo que se conoce como `tipado dinámico` o `dynamic typing`. Esto quiere decir que no tenemos que decirle al intérprete que tipo de datos contiene una variable, él lo calcula por si mismo. En otros lenguajes, al declarar una variable tenemos que avisarle qué tipos de datos vamos a guardar en ella (`static typing` o `tipado estático`). Otra cosa importante, es que JavaScript nos permite __cambiar__ el tipo de datos que guardamos en una variable, por ejemplo, podemos tener una variable con un número y luego guardar una string en la misma variable, en otros lenguajes hacer esto nos resultaría en un error.
 
-> Cuando queremos convertir algo de un tipo de datos a otro, usamos el termino _castear_.
+> Cuando queremos convertir algo de un tipo de datos a otro, usamos el termino _castear_.  
+
+(salto de linea)
+
 
 ### Tipos de datos Primitivos en JavaScript
 
@@ -251,6 +257,14 @@ De hecho, esa forma de escribir tiene un nombre particular, se llama notación n
 ![Notaciones](../_src/assets/02-JavaScriptAvanzado-I/notaciones.png)
 
 En fin, lo importante a tener en cuenta es que los operadores _son_ funciones.
+
+(salto de linea)
+
+(salto de linea)
+
+
+(salto de linea)
+
 
 ## Precedencia de Operadores y Asociatividad
 
@@ -396,6 +410,7 @@ console.log(a.nombre); // 'Chao'
 // cuando cambiamos la propiedad nombre de b, se ve reflejado en a
 // porque ambas variables "apuntan" al mismo objeto en memoria
 ```
+
 
 ## Variable `this`
 
